@@ -1,0 +1,18 @@
+.home_container {
+    .ant-carousel .slick-slide {
+        text-align: center;
+        height: 310px;
+        line-height: 160px;
+        background: #364d79;
+        overflow: hidden;
+    }
+
+    .ant-carousel .slick-slide h3 {
+        color: #fff;
+    }
+
+    .ant-btn-primary {
+        background-color: #7e7468;
+        border-color: #7e7468;
+    }
+}

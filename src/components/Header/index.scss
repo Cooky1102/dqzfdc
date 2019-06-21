@@ -1,0 +1,58 @@
+.header_container {
+
+    // 总的
+    .ant-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+        background-image: linear-gradient(rgb(126, 116, 104), rgb(89, 81, 73));
+    }
+
+    // 选中文字
+    .ant-menu-horizontal>.ant-menu-item-selected>a {
+        color: #fff;
+    }
+
+    // 选中 样式
+    .ant-menu-horizontal>.ant-menu-item:hover,
+    .ant-menu-horizontal>.ant-menu-submenu:hover,
+    .ant-menu-horizontal>.ant-menu-item-active,
+    .ant-menu-horizontal>.ant-menu-submenu-active,
+    .ant-menu-horizontal>.ant-menu-item-open,
+    .ant-menu-horizontal>.ant-menu-submenu-open,
+    .ant-menu-horizontal>.ant-menu-item-selected,
+    .ant-menu-horizontal>.ant-menu-submenu-selected {
+        background-color: #534c44;
+        border-bottom: none;
+    }
+
+    .ant-menu-item:hover,
+    .ant-menu-item-active,
+    .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+    .ant-menu-submenu-active,
+    .ant-menu-submenu-title:hover {
+        color: inherit;
+    }
+
+    .ant-menu-horizontal>.ant-menu-item,
+    .ant-menu-horizontal>.ant-menu-submenu {
+        border-bottom: none;
+    }
+
+    // 文字
+    .ant-menu-horizontal>.ant-menu-item>a {
+        color: #fff;
+    }
+
+    // 列表下划线
+    .ant-menu-horizontal {
+        border-bottom: none;
+    }
+
+    // 列表中的菜单的颜色
+    .submenu-title-wrapper {
+        color: #fff;
+    }
+
+}

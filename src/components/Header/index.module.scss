@@ -1,0 +1,44 @@
+.header_container {
+    background-image: linear-gradient(rgb(126, 116, 104), rgb(89, 81, 73));
+
+    .logo_box {
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+            // display: block;
+            height: 100%;
+        }
+    }
+
+    .focus_box {
+        height: 48px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        color: #fff;
+
+        .wechat_box,
+        .weibo_box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            position: relative;
+            cursor: pointer;
+
+            .wechat_img,
+            .weibo_img {
+                position: absolute;
+                top: 49px;
+                left: 0;
+                display: block;
+                width: 125px;
+                height: 125px;
+                z-index: 999;
+            }
+        }
+    }
+}

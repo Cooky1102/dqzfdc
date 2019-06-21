@@ -1,0 +1,1 @@
+export const GET_HOUSELIST = 'rent/GET_HOUSELIST';

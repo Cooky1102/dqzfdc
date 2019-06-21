@@ -1,0 +1,18 @@
+.home_container {
+    .carousel_container {
+        position: relative;
+
+        .carousel_img {
+            width: 100%;
+            // height: 100%;
+        }
+
+        .search_container {
+            width: 100%;
+            position: absolute;
+            top: 60%;
+            left: 0;
+        }
+
+    }
+}

@@ -1,0 +1,30 @@
+.rent_container {
+    .search_container {
+        height: 160px;
+        background-color: #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .total_count {
+        font-size: 22px;
+
+        b {
+            font-weight: bolder;
+            color: #7e7468;
+        }
+    }
+
+    .listItem {
+        display: block;
+        border-bottom: 1px solid #e8e8e8;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        .description_container {
+            line-height: 35px;
+        }
+    }
+
+}

@@ -1,0 +1,48 @@
+$basecolor : #7e7468;
+
+.tabcard_container {
+    margin: 20px 0;
+
+    // 外壳
+    .ant-tabs-bar {
+        border-bottom: none;
+        background-color: #e8e8e8;
+    }
+
+    .ant-tabs-nav .ant-tabs-tab:hover {
+        color: $basecolor;
+    }
+
+    .ant-tabs-nav .ant-tabs-tab-active {
+        color: #333;
+    }
+    .ant-tabs-nav .ant-tabs-tab-active:hover {
+        color: #333;
+    }
+
+    .ant-tabs-nav .ant-tabs-tab {
+        margin: 0;
+    }
+
+    // 下划线
+    .ant-tabs-ink-bar {
+        height: 3px;
+        background-color: $basecolor;
+    }
+
+    // 卡片
+    .ant-card {
+        margin: 0 5px 10px 0;
+    }
+
+    // 卡片里的 图片
+    .ant-card-cover img {
+        height: 145px;
+    }
+
+    // 卡片里的描述
+    .ant-card-meta-description {
+        height: 22px;
+    }
+
+}
